@@ -1,0 +1,15 @@
+$color1: rgba(14, 18, 21, 1.5);
+$color2: #474b4f;
+$color3: #6b6e70;
+$color4: #86c232;
+$color5: #61892f;
+
+$colorwhite: #cfcccc;
+$colorblack: #333;
+
+$theme-colors: ("primary": $color5);
+
+@import "react-bootstrap-range-slider/dist/react-bootstrap-range-slider.scss";
+
+/* import bootstrap to set changes */
+@import "~bootstrap/scss/bootstrap";

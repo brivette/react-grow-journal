@@ -1,0 +1,83 @@
+.growComponent {
+	width: 90%;
+	font-family: $body-font;
+	border: .3rem solid rgba($color3, .2);
+	color: #eee;
+	background-color: rgba(#333, .5);
+	margin: 4rem;
+	padding: 3rem;
+	border-radius: 15vh;
+}
+
+.inputStyles {
+	font-family: $body-font;
+	color: #eee;
+	padding: .4rem;
+	margin: 1rem .2rem;
+	background-color: transparent;
+	border: 1px solid #333;
+	border-radius: 2rem;
+}
+
+.select {
+	color: green;
+}
+
+button {
+	background-color: transparent;
+	border: 1px solid #eee;
+	padding: .5rem;
+	border-radius: 2rem;
+	font-family: $header-font;
+	font-size: 1rem;
+	color: #eee;
+	box-shadow: 0;
+}
+
+.growComponent span {
+	font-family: $header-font;
+	font-size: 1.2rem;
+	text-transform: uppercase;
+	font-weight: 600;
+	margin: .3rem;
+}
+
+.comments span {
+	font-size: 1rem;
+	color: $color3;
+}
+
+.comments p {
+	font-size: .8rem;
+}
+
+.icon {
+	font-size: 2rem;
+	margin: .1rem .5rem 0 .01rem;
+}
+
+.cannabis {
+	color: $color3;
+}
+
+.calendar {
+	color: $color1;
+}
+
+.nute {
+	color: $color5;
+}
+
+.fa-layers-text {
+	color: #e3e7d3;
+	font-size: 1rem;
+	margin: .2rem;
+	margin-top: .3rem;
+}
+
+.comments {
+	border: 1px solid $color5;
+	border-radius: 1rem;
+	padding: .3rem;
+	margin-bottom: .5rem;
+}

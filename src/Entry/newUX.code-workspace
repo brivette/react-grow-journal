@@ -1,0 +1,19 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		},
+		{
+			"path": "../../../../../udemy/udemy-tutorial"
+		},
+		{
+			"path": "../../../growbackend"
+		},
+		{
+			"path": "../../../../../kendraReact/kendrastone"
+		}
+	],
+	"settings": {
+		"git.ignoreLimitWarning": true
+	}
+}

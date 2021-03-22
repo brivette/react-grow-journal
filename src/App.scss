@@ -1,0 +1,243 @@
+@import "./colors";
+@import "./breakpoints";
+@import './Entry/formicon';
+
+@import url('https://fonts.googleapis.com/css2?family=Cabin&family=Raleway:wght@800&family=Rubik&display=swap');
+
+$header-font: 'Cabin', sans-serif;
+$body-font: 'Rubik', sans-serif;
+
+$shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+
+
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: $header-font;
+	color: $colorwhite;
+	font-size: 1rem;
+	background: linear-gradient(rgba($colorwhite, .75), rgba(#888, .75));
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 100v;
+	background-attachment: fixed;
+}
+
+h1 {
+	text-transform: uppercase;
+	font-weight: 500;
+	font-size: 5rem;
+	margin-bottom: 0;
+	letter-spacing: .25rem;
+}
+
+h2 {
+	text-transform: uppercase;
+	font-size: 2.5em !important;
+	margin: .3rem;
+	letter-spacing: .6rem;
+	padding-top: 0;
+	padding-bottom: 1.25rem;
+}
+
+h3 {
+	font-size: 2em;
+}
+
+h4 {
+	font-size: 1.15rem;
+	text-transform: uppercase;
+}
+
+
+
+.cannabis {
+	color: rgba($color5, .65);
+	font-size: 3.5rem;
+	margin: .45rem;
+}
+
+.therm,
+.waterDrop,
+.cali,
+.nute {
+	margin-left: .35rem;
+	margin-top: .65rem;
+}
+
+.entrybox {
+	box-shadow: $shadow;
+	border-radius: 10px;
+	padding: 2rem;
+	background-color: $colorblack;
+	height: 87vh;
+}
+
+
+.entrybox textarea,
+input[type=text] {
+	color: $colorwhite;
+	background-color: transparent;
+	font-size: 1rem;
+	width: 90%;
+	padding: .3rem;
+	margin: .3rem 0 .5rem 2rem;
+	border: 1px $colorwhite solid;
+	border-radius: .3rem;
+
+}
+
+.labels {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	text-align: right;
+	margin-bottom: 0;
+	padding-left: .25rem;
+	font-size: 1.2rem;
+}
+
+.slide-class {
+	margin: .3rem .5rem;
+}
+
+.formButton {
+	background-color: transparent;
+	color: $colorwhite;
+	margin: .2rem 0 .5rem 1rem;
+	padding: .2em 2.5em;
+	border: solid 1px $colorwhite;
+	border-radius: .5rem;
+	font-size: 1rem;
+	text-align: center;
+	cursor: pointer;
+}
+
+.strainSelect {
+	box-shadow: $shadow;
+	background-color: $colorblack;
+	width: 100%;
+	text-align: center;
+	margin: 0 0 1rem 0;
+	color: $colorwhite;
+
+}
+
+.navLink {
+	font-size: 1.2rem;
+	display: inline-block;
+}
+
+.strain-select {
+	// appearance: none;
+	color: $colorwhite;
+	text-transform: uppercase;
+	font-size: 2.5em !important;
+	padding: .3rem;
+	letter-spacing: .6rem;
+	background-color: transparent;
+	border-radius: 10px;
+	
+}
+
+.nutrient {
+	margin: 1rem 0;
+}
+
+.small-title {
+	display: none;
+}
+
+.nute-box {
+	background-color: black;
+}
+
+.rightbarCol {
+	height: 85vh;
+	h1 {
+		font-size: 3rem;
+		color: $colorwhite;
+	}
+}
+
+.rightbar1 {
+	margin-bottom: 1vh;
+	height: 75%;
+	background: $colorblack;
+	border-radius: 10px;
+	box-shadow: $shadow;
+}
+
+.rightbar3 {
+	margin-bottom: 1vh;
+	height: 20%;
+	background-color: $colorblack;
+	border-radius: 10px;
+	box-shadow: $shadow;
+}
+
+.current-grow {
+	color: $color4;
+	font-size: 1.3rem;
+}
+
+.last-photo {
+	margin: .3rem;
+	border-radius: 6px;
+}
+
+.plant-stats {
+	padding: .3rem;
+}
+
+.stats-label {
+	color: $colorwhite;
+	font-weight: 800;
+	font-size: .45vw;
+	letter-spacing: .25vw;
+	text-transform: uppercase;
+	text-align: left;
+	// padding: .3rem;
+	border-left: .5px solid rgba($colorwhite, .75);
+}
+
+.stats {
+	font-size: .75vw;
+	border-left: .5px solid rgba($colorwhite, .75);
+}
+
+.stat-sections {
+	width: 15%;
+}
+
+//iPhoneX adjustments 
+@media screen and (max-width: 400px) {
+	.labels {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 576px) {
+	.nutrient,
+	img {
+		padding-bottom: 1rem;	
+	}
+	.labels {
+		padding-left: 0;
+		margin-left: 0;	
+	}
+	.small-title {
+		display: flex;
+	}	
+}
+
+@media screen and (max-width: 639px) {
+	.entrybox {
+		width: 100vw;
+	}
+}
+
