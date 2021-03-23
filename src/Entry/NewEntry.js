@@ -75,7 +75,7 @@ render() {
             <Row>
                 <Col>
                     <Row>
-                        <Col xl={1}>
+                        <Col xl={2}>
                         <span className="labels">Date:</span>
                         </Col>
                         <Col xl={3}>
@@ -86,7 +86,7 @@ render() {
                         </Col>
                     </Row>
                     <Row>
-                        <Col xl={1}>
+                        <Col xl={2}>
                             <span className="labels">Temperature:</span>
                         </Col>
                         <Col xl={3}>
@@ -94,7 +94,7 @@ render() {
                         </Col>
                     </Row>
                     <Row>
-                        <Col xl={1}>
+                        <Col xl={2}>
                             <span className="labels">Humidity:</span>
                         </Col>
                         <Col xl={3}>
@@ -102,17 +102,17 @@ render() {
                         </Col>
                     </Row>
                     <Row>
-                        <Col xl={1}>
+                        <Col xl={2}>
                             <span className="labels">Condition:</span>
                         </Col>
-                        <Col xl={3}>
+                        <Col xl={4}>
                         <ConditionSlider
                             setEntryCondition={this.setEntryCondition}
                             currentCondition={condition}
                         />
                         </Col>
                         <Col xl={4}>
-                        <span>
+                        <span className="condition-text">
                             {
                                 {
                                     1 : "Very Bad",
@@ -126,7 +126,7 @@ render() {
                         </Col>
                     </Row>
                     <Row>
-                        <Col xl={1}>
+                        <Col xl={2}>
                             <div className="labels">Comments:</div>
                         </Col>
                         <Col xl={5}>
@@ -136,7 +136,7 @@ render() {
         
                 <h2>Fed</h2>
                     <Row>
-                    <Col xl={1}>
+                    <Col xl={2}>
                         <span className="labels">Water:</span>
                     </Col>
                     <Col xl={3}>
@@ -144,7 +144,7 @@ render() {
                     </Col>
                     </Row>
                     <Row>
-                    <Col xl={1}>
+                    <Col xl={2}>
                         <span className="labels">Nutrients</span>
                     </Col>
                     <Col xl={5}>
